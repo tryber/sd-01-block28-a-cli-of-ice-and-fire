@@ -5,7 +5,8 @@
   "main": "cli.js",
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "start": "node index.js"
   },
   "keywords": [
     "ice",
@@ -28,7 +29,8 @@
     "jest": "25.1.0"
   },
   "dependencies": {
-    "inquirer": "7.1.0",
+    "inquirer": "^7.1.0",
+    "node-fetch": "^2.6.0",
     "superagent": "5.2.2"
   }
 }
